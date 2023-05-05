@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="F:\project3\index.css">
+    <title>Survay From</title>
+</head>
+<body>
+    <!--Registraion From-->
+    <h1 id="title">Newton School Survey Form</h1>
+
+    <form id="from">
+        <div class="from-control">
+        <!--Details-->
+        <label for="name" id="label-name">Name</label>
+
+        <!--Input Name-->
+        <input id="name"type="text" placeholder="Enter Name">
+        </div>
+
+        <div class="from-control">
+        <label for="email" id="label-email">Email</label>
+
+            <!--Input Email-->
+            <input id="email" type="text" placeholder="Enter Email">
+        </div>
+
+        <div class="from-control">
+            <label for="age" id="label-age">Age</label>
+
+            <!--Input Age-->
+            <input id="age" type="text" placeholder="Enter age">
+
+        </div>
+
+        <div class="from-control">
+            <label for="role" id="label-role">Which option best describes you?</label>
+
+            <!--DropDown Option-->
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="Intern">Intern</option>
+                <option value="Professional">Professional</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="from-control">
+            <label for="radio" id="label-radio"> Would you recommend Newton School
+                to a friend?</label>
+
+            <!--Input radio Button-->
+            <label for="recommed-1">
+               <input name="recommed" id="recommed-1" type="radio">Yes</input>
+            </label>
+
+            <label for="recommed-2">
+                <input name="recommed" id="recommed-2" type="radio">No</input>
+             </label>
+
+             <label for="recommed-3">
+                <input name="recommed" id="recommed-3" type="radio">May Be</input>
+             </label>
+         </div>
+
+         <div class="from-control">
+            <label for="checkbox">Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+
+            <label for="inp1">
+                <input type="checkbox" name="inp">C</input>
+            </label>
+
+            <label for="inp2">
+                <input type="checkbox" name="inp">C++</input>
+            </label>
+            <label for="inp3">
+                <input type="checkbox" name="inp">JavaScript</input>
+            </label>
+            <label for="inp3">
+                <input type="checkbox" name="inp">Jqurey</input>
+            </label>
+            <label for="inp4">
+                <input type="checkbox" name="inp">Bootstrap</input>
+            </label>
+            <label for="inp5">
+                <input type="checkbox" name="inp">Python</input>
+            </label>
+
+            <label for="inp6">
+                <input type="checkbox" name="inp">Java</input>
+            </label>
+
+            <label for="inp7">
+                <input type="checkbox" name="inp">Mongo</input>
+            </label>
+
+            <label for="inp8">
+                <input type="checkbox" name="inp">React</input>
+            </label>
+        </div>
+
+        <!--COMMENT INPUT-->
+        <div class="from-control">
+            <label for="comment"> Any comments or suggestions</label>
+
+            <!--Multiple line comment suggestion-->
+            <textarea name="comment" id="comment" placeholder="Enter Any Comment"></textarea>
+       </div>
+
+       <!--Multi line text submit-->
+    <button type="submit" value="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>

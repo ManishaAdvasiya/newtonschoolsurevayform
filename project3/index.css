@@ -1,0 +1,52 @@
+body{
+    background-color:  hwb(152 1% 24%);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.from-control
+{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.from-control label{
+    margin-bottom: 10px;
+    display: block;
+}
+.from-control input,
+.from-control select,
+.from-control textarea
+{
+    border: 2px solid darkgray;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    width: 95%;
+    display: block;
+    box-shadow: 2px 2px 2px ghostwhite;
+}
+.from-control input[type="radio"],
+.from-control input[type="checkbox"]
+{
+    
+    width: auto;
+    display: inline-block;
+}
+button{
+    background-color: hwb(152 1% 24%);
+    padding: 10px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-size: 20px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
